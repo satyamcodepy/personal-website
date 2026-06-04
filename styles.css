@@ -369,7 +369,7 @@ h1, h2, h3, p { margin-top: 0; }
   margin-bottom: 16px;
 }
 
-.article-body { color: var(--muted); font-size: 1.05rem; line-height: 1.9; }
+.article-body { color: var(--text); font-size: 1.05rem; line-height: 1.9; }
 
 .article-body h2 {
   font-family: 'Cormorant Garamond', Georgia, serif;
