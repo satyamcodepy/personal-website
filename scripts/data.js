@@ -4,6 +4,7 @@ export const site = {
   email: "theenact@gmail.com",
   socials: [
     { label: "X/Twitter", href: "https://x.com/theunknownssr" },
+     { label: "GitHub", href: "https://github.com/satyamcodepy" },
 { label: "Telegram Channel", href: "https://t.me/mindsetlegacy" },
 { label: "Telegram Profile", href: "https://t.me/romanestes" } ]
 };
