@@ -315,6 +315,7 @@ function initArticleSearch() {
 }
 
 function init() {
+  createLeaves();
   initTheme();
   renderSocials();
   renderCurrently();
