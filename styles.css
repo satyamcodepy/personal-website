@@ -158,14 +158,23 @@ h1, h2, h3, p { margin-top: 0; }
 
 /* ── THEME TOGGLE ── */
 .theme-toggle {
-  background: transparent;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 50;
+  background: var(--surface);
   border: 1px solid var(--line);
   color: var(--muted);
   border-radius: 999px;
-  width: 38px;
-  height: 38px;
-  font-size: 1.1rem;
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,.15);
   transition: color 150ms ease, border-color 150ms ease;
+}
   display: flex;
   align-items: center;
   justify-content: center;
