@@ -1,11 +1,11 @@
 export const site = {
   name: "ME",
   tagline: "I'm a finance student with a curious mind. I write about whatever catches my attention — programming, philosophy, psychology, and the small ideas that make life more interesting.",
-  email: "hello@example.com",
+  email: "theenact@gmail.com",
   socials: [
-    { label: "X/Twitter", href: "https://x.com/yourusername" },
-    { label: "Telegram", href: "https://t.me/yourchannel" }
-  ]
+    { label: "X/Twitter", href: "https://x.com/theunknownssr" },
+{ label: "Telegram Channel", href: "https://t.me/mindsetlegacy" },
+{ label: "Telegram Profile", href: "https://t.me/romanestes" } ]
 };
 
 export const currently = [];
