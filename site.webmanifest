@@ -1,0 +1,8 @@
+{
+  "name": "Satyam",
+  "short_name": "Satyam",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080910",
+  "theme_color": "#0a0b12"
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Now - Satyam</title>
+    <meta name="description" content="What Satyam is currently learning, building, and thinking about." />
+    <meta name="theme-color" content="#0a0b12" />
+    <meta property="og:title" content="Now - Satyam" />
+    <meta property="og:description" content="Current learning, projects, goals, and interests." />
+    <link rel="canonical" href="https://example.com/now/" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="/">S</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="/#writing">Writing</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#learning">Learning</a>
+        <a href="/now/">Now</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" data-command-open aria-label="Open command palette" title="Command palette"><span aria-hidden="true">⌘</span></button>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle color theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"></span></span></button>
+      </div>
+    </header>
+    <main class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Now</p>
+        <h1>What I am focused on right now.</h1>
+        <p class="intro">Updated <span data-now-updated></span>. Keep this page simple and manual so it stays honest.</p>
+      </div>
+      <div class="now-grid reveal" data-now></div>
+    </main>
+    <dialog class="command-palette" data-command-palette>
+      <div class="command-palette__inner">
+        <input data-command-input type="search" placeholder="Go to writing, projects, now..." aria-label="Command search" />
+        <div class="command-list" data-command-list></div>
+      </div>
+    </dialog>
+    <script type="module" src="/scripts/app.js"></script>
+  </body>
+</html>

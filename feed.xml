@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Satyam</title>
+    <link>https://example.com/</link>
+    <description>Writing, projects, learning notes, and curiosity-driven work by Satyam.</description>
+    <item>
+      <title>Learning Python with Small Projects</title>
+      <link>https://example.com/articles/learning-python-with-small-projects/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description>A note on why small, finished projects are one of the best ways to make programming feel real.</description>
+    </item>
+    <item>
+      <title>Notes on Curiosity</title>
+      <link>https://example.com/articles/notes-on-curiosity/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Curiosity becomes stronger when it is treated like a practice, not just a mood.</description>
+    </item>
+  </channel>
+</rss>
