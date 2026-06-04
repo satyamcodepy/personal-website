@@ -13,6 +13,35 @@ export const currently = [];
 export const about = [];
 
 export const articles = [
+{
+  slug: "desensitized",
+  title: "The Quiet Numbness",
+  date: "2026-06-04",
+  readingTime: "4 min read",
+  category: "Thoughts",
+  tags: ["Psychology", "Social Media", "Attention"],
+  isNew: true,
+  excerpt: "We are consuming so much content so quickly that ordinary life has started to feel boring. Here is why that matters.",
+  content: [
+    ["p", "One thing I have observed lately is that we are becoming increasingly desensitized."],
+    ["p", "By desensitized, I mean reaching a point where things no longer affect us the way they once did. It can be something dark, something emotional, or even something as simple as a joke. The internet exposes us to so much content, so quickly and so constantly, that our reactions begin to fade."],
+    ["p", "There was a time when ordinary jokes could make us laugh for minutes. Small moments felt entertaining. Today, many of those same things barely get a reaction from us. Not because they became less funny, but because we have consumed so much content that our standards for stimulation have changed."],
+    ["p", "This doesn't stop at humor. Spend enough time online and you will notice people making jokes about almost everything. Sometimes even serious crimes, tragedies, or people become subjects of entertainment. Once something is repeatedly turned into content, many people stop feeling the weight of it. It becomes another post to scroll past."],
+    ["blockquote", "The result is that normal life starts feeling boring. Many people walk around with a strange feeling that something is missing."],
+    ["h2", "Our brains adapt to whatever we repeatedly consume"],
+    ["p", "Imagine a monkey that loves bananas. If you start giving it chocolate every day, chocolate becomes its new highest reward. The monkey will still eat bananas, but not with the same excitement as before. The banana did not become worse. The monkey simply became used to something more stimulating."],
+    ["blockquote", "In this example, normal life is the banana and social media is the chocolate."],
+    ["p", "When I talk about the internet, I want to make a distinction. The internet itself is not the problem. It is one of the greatest tools ever created. The issue is that a large part of our online time is now spent on social media, where content is designed to constantly compete for our attention."],
+    ["h2", "The biggest problem is that we no longer choose what we consume"],
+    ["p", "We open an app and whatever appears on the feed is what enters our mind. We rarely stop to ask whether we wanted it in the first place. It is similar to eating every piece of food placed in front of us without thinking about its nutritional value."],
+    ["blockquote", "If we did that with our bodies, we would eventually face obesity and disease. The mind is no different."],
+    ["p", "Our minds have limits. Every piece of content occupies a little space in our attention. When we continuously consume without intention, we overload ourselves. We become mentally exhausted, distracted, and less sensitive to the simple things that once brought us joy."],
+    ["h2", "Maybe the solution is to become more conscious"],
+    ["p", "Before watching a video, reading a post, or clicking on something, ask yourself a simple question: where is this coming from, and what value is it adding to my life?"],
+    ["p", "Not every piece of content needs to educate us or change our lives. But if we never question what we consume, we slowly hand over control of our attention to algorithms."],
+    ["blockquote", "The greatest loss of desensitization is not that we stop enjoying the internet. It is that we stop enjoying everything else."]
+  ]
+},
   {
     slug: "time-feels-fast",
     title: "Why Time Feels Fast Now",
