@@ -493,3 +493,18 @@ h1, h2, h3, p { margin-top: 0; }
 }
 
 .pill:hover { color: var(--text); border-color: var(--accent); }
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 14px;
+    font-size: .72rem;
+  }
+  .theme-toggle {
+    width: 30px;
+    height: 30px;
+    font-size: .9rem;
+  }
+  .brand {
+    font-size: .95rem;
+  }
+}
+
