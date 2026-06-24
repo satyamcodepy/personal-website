@@ -17,7 +17,7 @@ export const articles = [
   {
     slug: "the-quiet-war",
     title: "The Quiet War We're All Fighting",
-    date: "2026-06-04",
+    date: "2026-06-24",
     readingTime: "4 min read",
     category: "Thoughts",
     tags: ["Psychology", "Optimism", "Life"],
